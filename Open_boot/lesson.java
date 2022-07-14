@@ -9,7 +9,8 @@ public class lesson {
         System.out.println(resultado);
         coche micarro = new coche();
         micarro.qdepuertas();
-        System.out.println(micarro.puertas);
+        micarro.qdepuertas();
+        System.out.println("el numero de puertas es " + micarro.puertas);
     
     }
 public static int suma( int a, int b, int c) {
@@ -21,7 +22,7 @@ public static int suma( int a, int b, int c) {
 }
 class coche {
 
-    public int puertas = 0;
+    public int puertas = 4;
 
     public void qdepuertas(){
         this.puertas++;
