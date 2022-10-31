@@ -1,0 +1,86 @@
+span {
+
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 6ch;
+    font-size: 20pt;
+    color:blanchedalmond;
+
+    animation: typing 2s steps(6), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    width: 100px;
+    background-color: #4C1E4F;
+    margin: 0px 500px;
+
+
+}
+@keyframes typing {
+    from {width:0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
+}
+
+h2 {
+   color: #5e4ac8;
+   font-weight: bold;
+   font-size: 30pt;
+   margin: 0px 500px;
+  
+   
+}
+
+label{
+
+    color :#5e4ac8;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.enviar, button{
+    color : white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    border-color: #5e4ac8;
+    background:#5e4ac8 ;
+    padding: 7px;
+    font-size: 9pt;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+button:active{
+
+    background: #4C1E4F;
+}
+
+img{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4C1E4F;
+    padding-right: 4px;
+    
+}
+
+#servicios {
+    color: #5e4ac8;
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 0px 0px;
+}
+
+ul {
+    color: #5e4ac8;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#elemento1{
+    color: #4C1E4F;
+}
