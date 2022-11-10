@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    background-color: #4C1E4F;
+    height: 300px;
+    justify-content:space-around;
+    align-items: center; /* si no definimos la altura del contenedor y colocamos esta propiedad vamos a estar a dispocion que cambie
+                         sobre cuantos elementos contenga*/
+}
+
+.contenido1{
+
+    background-color: rosybrown;
+    /*height: 300px;*/
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.contenido2{
+
+    background-color:lightpink;
+     /*height: 300px;*/
+    width: 300px;
+    border: 1px solid blue;
+}
+
+.contenido3{
+
+    background-color: #5e4ac8;
+     /*height: 300px;*/
+    width: 300px;
+    border: 1px solid blue;
+}

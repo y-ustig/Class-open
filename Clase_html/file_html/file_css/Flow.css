@@ -1,0 +1,61 @@
+.contenedor-hidden{
+
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 15px;
+
+}
+
+.contenedor-scroll{
+
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    overflow: scroll;
+    margin: 15px;
+    border-radius: 10px;
+
+
+}
+
+.contenedor-Visible{
+
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    overflow: visible;
+    margin: 15px;
+
+
+}
+
+.contenedor-auto{
+
+    background-color: bisque;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    overflow: auto;
+    margin: 15px;
+    border-radius: 5px;
+
+
+}
+
+.flex {
+
+    width: auto;
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+
+}
+
